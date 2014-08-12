@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">पासवर्ड जनरेटर</string>
+  <string name="checkbox_error">आप कम से कम 1 बॉक्स चेक किया गया है चाहिए</string>
+  <string name="copy">ठोकर यह क्लिपबोर्ड को कॉपी करने के लिए पासवर्ड</string>
+  <string name="generate">उत्पन्न</string>
+  <string name="intro">आपका पासवर्ड यहाँ दिखाई देगा</string>
+  <string name="length">पासवर्ड लंबाई</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">पासवर्ड</string>
+  <string name="password_copied">क्लिपबोर्ड पर प्रतिलिपि बनाई पासवर्ड</string>
+  <string name="symbols">प्रतीकों (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (अंडरस्कोर)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Generador de contraseñas</string>
+  <string name="checkbox_error">Debe tener por lo menos 1 caja comprobado</string>
+  <string name="copy">Golpee la contraseña para copiarlo al portapapeles</string>
+  <string name="generate">Generar</string>
+  <string name="intro">La contraseña aparecerá aquí</string>
+  <string name="length">Longitud de la contraseña</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Contraseña</string>
+  <string name="password_copied">Contraseña copiado en el portapapeles</string>
+  <string name="symbols">Símbolos (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Subrayado)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Generador de contrasenyes</string>
+  <string name="checkbox_error">Vostè ha de tenir com a mínim 1 caixa comprovada</string>
+  <string name="copy">Doni copets la contrasenya per copiar-lo al porta-retalls</string>
+  <string name="generate">Generar</string>
+  <string name="intro">La contrasenya apareixerà aquí</string>
+  <string name="length">Llargada de contrasenya</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Contrasenya</string>
+  <string name="password_copied">Contrasenya de copiat al suport de pinça</string>
+  <string name="symbols">Símbols (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Guió baix)</string>
+</resources>

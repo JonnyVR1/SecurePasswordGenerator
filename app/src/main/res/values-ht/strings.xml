@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Modpas dèlko</string>
+  <string name="checkbox_error">Se pou ou fè pou pi piti 1 bwat tcheke</string>
+  <string name="copy">Sur la modpas pou copie li pou presse-papiers</string>
+  <string name="generate">Jenere</string>
+  <string name="intro">Pas ou yo ap sanble isit la</string>
+  <string name="length">Longueur modpas</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Modpas</string>
+  <string name="password_copied">Modpas copié pou Presse-papiers</string>
+  <string name="symbols">Senbòl (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Souligner)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Penjana kata laluan</string>
+  <string name="checkbox_error">Anda mesti mempunyai sekurang-kurangnya 1 kotak yang disemak</string>
+  <string name="copy">Ketuk kata laluan untuk Salin ke papan Keratan</string>
+  <string name="generate">Menjana</string>
+  <string name="intro">Kata laluan anda akan muncul di sini</string>
+  <string name="length">Panjang kata laluan</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Kata laluan</string>
+  <string name="password_copied">Kata laluan yang disalin ke papan Keratan</string>
+  <string name="symbols">Simbol-simbol (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Garis bawah)</string>
+</resources>

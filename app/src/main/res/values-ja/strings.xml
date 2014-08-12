@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">パスワードジェネレーター</string>
+  <string name="checkbox_error">少なくとも 1 のボックスをチェックする必要があります。</string>
+  <string name="copy">パスワードをクリップボードにコピーするをタップします。</string>
+  <string name="generate">生成します。</string>
+  <string name="intro">あなたのパスワードはここに表示されます。</string>
+  <string name="length">パスワードの長さ</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">パスワード</string>
+  <string name="password_copied">パスワードをクリップボードにコピー</string>
+  <string name="symbols">記号 (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (アンダー スコア)</string>
+</resources>

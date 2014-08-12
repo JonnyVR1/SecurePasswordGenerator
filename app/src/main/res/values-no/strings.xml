@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Passord Generator</string>
+  <string name="checkbox_error">Du må ha minst 1 avmerkingsboksen</string>
+  <string name="copy">Trykk passord for å kopiere den til utklippstavlen</string>
+  <string name="generate">Generere</string>
+  <string name="intro">Passordet vises her</string>
+  <string name="length">Passord</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Passord</string>
+  <string name="password_copied">Passord kopieres til utklippstavlen</string>
+  <string name="symbols">Symboler (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Flatstrek)</string>
+</resources>

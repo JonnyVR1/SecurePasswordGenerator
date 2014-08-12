@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ژنراتور رمز عبور</string>
+  <string name="checkbox_error">شما باید حداقل 1 جعبه چک</string>
+  <string name="copy">شیر رمز عبور به آن را در کلیپ بورد کپی کنید</string>
+  <string name="generate">تولید</string>
+  <string name="intro">رمز عبور خود را در اینجا ظاهر خواهد شد</string>
+  <string name="length">طول رمز عبور</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">رمز عبور</string>
+  <string name="password_copied">کلمه عبور به کلیپ بورد کپی شده</string>
+  <string name="symbols">نماد (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (زیرخط)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Password Generator</string>
+  <string name="checkbox_error">Sinulla on oltava vähintään 1 ruutu</string>
+  <string name="copy">Napauta Salasana jäljentää se jotta clipboard</string>
+  <string name="generate">Luo</string>
+  <string name="intro">Salasana näkyy tässä</string>
+  <string name="length">Salasanan vähimmäispituus</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Salasana</string>
+  <string name="password_copied">Salasana pärjäävä jotta Clipboard</string>
+  <string name="symbols">Symbolit (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Alaviiva)</string>
+</resources>

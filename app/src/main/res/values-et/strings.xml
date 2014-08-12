@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Parool Generator</string>
+  <string name="checkbox_error">Sul peab olema vähemalt 1 kasti kontrollida</string>
+  <string name="copy">Puudutage parooli kopeerida lõikelauale</string>
+  <string name="generate">Loo</string>
+  <string name="intro">Teie parool kuvatakse siin</string>
+  <string name="length">Parooli pikkus</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Parooli</string>
+  <string name="password_copied">Parool kopeeritakse lõikelauale</string>
+  <string name="symbols">Sümbolid (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Alakriips)</string>
+</resources>

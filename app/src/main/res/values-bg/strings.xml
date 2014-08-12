@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Парола генератор</string>
+  <string name="checkbox_error">Трябва да имате най-малко 1 кутийката</string>
+  <string name="copy">Натиснете парола, за да го копирате в клипборда</string>
+  <string name="generate">Генериране на</string>
+  <string name="intro">Вашата парола ще се появи тук</string>
+  <string name="length">Дължина на паролата</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Парола</string>
+  <string name="password_copied">Парола, копиран в клипборда</string>
+  <string name="symbols">Символи (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Underscore)</string>
+</resources>

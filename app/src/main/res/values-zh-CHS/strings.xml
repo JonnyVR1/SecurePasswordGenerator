@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">密码生成器</string>
+  <string name="checkbox_error">你必须有至少 1 选中的复选框</string>
+  <string name="copy">点击要将它复制到剪贴板中的密码</string>
+  <string name="generate">生成</string>
+  <string name="intro">您的密码将会出现在这里</string>
+  <string name="length">密码长度</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">密码</string>
+  <string name="password_copied">密码复制到剪贴板上</string>
+  <string name="symbols">符号 (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ （下划线）</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Wachtwoordengenerator</string>
+  <string name="checkbox_error">U moet ten minste 1 doos gecontroleerd</string>
+  <string name="copy">Tik het wachtwoord te kopiëren naar Klembord</string>
+  <string name="generate">Genereren</string>
+  <string name="intro">Uw wachtwoord zal hier verschijnen</string>
+  <string name="length">Wachtwoordlengte</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Wachtwoord</string>
+  <string name="password_copied">Wachtwoord naar Klembord gekopieerd</string>
+  <string name="symbols">Symbolen (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Onderstrepingsteken)</string>
+</resources>

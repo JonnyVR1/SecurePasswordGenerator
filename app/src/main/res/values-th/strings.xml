@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">สร้างรหัสผ่าน</string>
+  <string name="checkbox_error">คุณต้องมีอย่างน้อย 1 กล่อง</string>
+  <string name="copy">เคาะรหัสผ่านเพื่อคัดลอกไปยังคลิปบอร์ด</string>
+  <string name="generate">สร้าง</string>
+  <string name="intro">รหัสผ่านของคุณจะปรากฏที่นี่</string>
+  <string name="length">ความยาวของรหัสผ่าน</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">รหัสผ่าน</string>
+  <string name="password_copied">รหัสผ่านที่ถูกคัดลอกไปยังคลิปบอร์ด</string>
+  <string name="symbols">สัญลักษณ์ (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (ขีดล่าง)</string>
+</resources>

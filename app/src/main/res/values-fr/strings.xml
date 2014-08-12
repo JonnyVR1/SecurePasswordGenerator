@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Générateur de mot de passe</string>
+  <string name="checkbox_error">Vous devez avoir au moins 1 case cochée</string>
+  <string name="copy">Tapez le mot de passe pour le copier dans le presse-papiers</string>
+  <string name="generate">Générer</string>
+  <string name="intro">Votre mot de passe apparaîtra ici</string>
+  <string name="length">Longueur de mot de passe</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Mot de passe</string>
+  <string name="password_copied">Mot de passe copiée dans le presse-papiers</string>
+  <string name="symbols">Symboles (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Caractère de soulignement)</string>
+</resources>

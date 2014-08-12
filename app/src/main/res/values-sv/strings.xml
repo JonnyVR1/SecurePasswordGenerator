@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Password Generator</string>
+  <string name="checkbox_error">Du måste ha minst 1 rutan är markerad</string>
+  <string name="copy">Knacka på lösenordet för att kopiera den till Urklipp</string>
+  <string name="generate">Generera</string>
+  <string name="intro">Ditt lösenord kommer att visas här</string>
+  <string name="length">Längd för lösenord</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Lösenord</string>
+  <string name="password_copied">Lösenord kopieras till Urklipp</string>
+  <string name="symbols">Symboler (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Understreck)</string>
+</resources>

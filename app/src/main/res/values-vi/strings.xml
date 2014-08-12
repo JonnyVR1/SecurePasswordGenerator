@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Mật khẩu máy phát điện</string>
+  <string name="checkbox_error">Bạn phải có ít nhất 1 hộp kiểm tra</string>
+  <string name="copy">Gõ mật khẩu để sao chép nó vào clipboard</string>
+  <string name="generate">Tạo ra</string>
+  <string name="intro">Mật khẩu của bạn sẽ xuất hiện ở đây</string>
+  <string name="length">Độ dài mật khẩu</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Mật khẩu</string>
+  <string name="password_copied">Mật khẩu sao chép vào Clipboard</string>
+  <string name="symbols">Biểu tượng (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Underscore)</string>
+</resources>

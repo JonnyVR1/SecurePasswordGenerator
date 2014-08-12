@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">비밀 번호 생성기</string>
+  <string name="checkbox_error">적어도 1 개의 상자 확인 해야</string>
+  <string name="copy">암호를 클립보드에 복사를 누릅니다</string>
+  <string name="generate">생성</string>
+  <string name="intro">비밀 번호를 여기에 나타납니다.</string>
+  <string name="length">암호 길이</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">비밀 번호</string>
+  <string name="password_copied">암호를 클립보드에 복사</string>
+  <string name="symbols">기호 (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (밑줄)</string>
+</resources>

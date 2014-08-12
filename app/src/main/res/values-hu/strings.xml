@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Password Generator</string>
+  <string name="checkbox_error">Rendelkeznie kell legalább 1 doboz kockás</string>
+  <string name="copy">Koppintson a jelszó-hoz másol ez-hoz csipeszes írótábla</string>
+  <string name="generate">Generál</string>
+  <string name="intro">Itt jelennek meg a jelszavát</string>
+  <string name="length">Jelszó hossza</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Jelszó</string>
+  <string name="password_copied">Jelszó másolása vágólapra</string>
+  <string name="symbols">Szimbólumok (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Aláhúzás)</string>
+</resources>

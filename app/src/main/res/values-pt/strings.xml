@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Gerador de senha</string>
+  <string name="checkbox_error">Você deve ter pelo menos 1 caixa marcada</string>
+  <string name="copy">Toque a senha para copiá-lo para a área de transferência</string>
+  <string name="generate">Gerar</string>
+  <string name="intro">Sua senha aparecerá aqui</string>
+  <string name="length">Comprimento da senha</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Senha</string>
+  <string name="password_copied">Senha copiada para a área de transferência</string>
+  <string name="symbols">Símbolos (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Sublinhado)</string>
+</resources>
