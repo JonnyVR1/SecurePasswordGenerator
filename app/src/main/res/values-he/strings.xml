@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">מחולל סיסמה</string>
+  <string name="checkbox_error">דרושה לך לפחות 1 קופסה בדק</string>
+  <string name="copy">הקש את הסיסמא כדי להעתיקו ללוח</string>
+  <string name="generate">צור</string>
+  <string name="intro">הסיסמה שלך יופיע כאן</string>
+  <string name="length">אורך סיסמה</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">סיסמה</string>
+  <string name="password_copied">הסיסמה יועתק אל הלוח</string>
+  <string name="symbols">סמלים (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (תחתון)</string>
+</resources>

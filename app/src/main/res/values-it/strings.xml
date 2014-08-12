@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Generatore di password</string>
+  <string name="checkbox_error">È necessario disporre di almeno 1 casella selezionata</string>
+  <string name="copy">Toccare la password per copiarlo negli Appunti</string>
+  <string name="generate">Generare</string>
+  <string name="intro">La password verrà visualizzata qui</string>
+  <string name="length">Lunghezza della password</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Password</string>
+  <string name="password_copied">Password copiato negli Appunti</string>
+  <string name="symbols">Simboli (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Underscore)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Şifre üreteç</string>
+  <string name="checkbox_error">En az 1 kutusu işaretli olmalıdır</string>
+  <string name="copy">Şifre panoya kopyalamak için dokunun</string>
+  <string name="generate">Oluşturmak</string>
+  <string name="intro">Senin parola-ecek gözükmek burada</string>
+  <string name="length">Parola uzunluğu</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Şifre</string>
+  <string name="password_copied">Panoya kopyalanan şifre</string>
+  <string name="symbols">Semboller (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Alt çizgi)</string>
+</resources>

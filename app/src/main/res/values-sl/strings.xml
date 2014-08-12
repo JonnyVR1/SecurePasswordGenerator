@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Parola Generator</string>
+  <string name="checkbox_error">Imeti morate vsaj 1 škatla kockast</string>
+  <string name="copy">Tapnite geslo, da ga kopirajte v odložišče</string>
+  <string name="generate">Ustvarjajo</string>
+  <string name="intro">Vaše geslo bo pojavil tukaj</string>
+  <string name="length">Dolžino gesla</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Geslo</string>
+  <string name="password_copied">Geslo, ki se kopira v odložišče</string>
+  <string name="symbols">Simboli (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Podčrtaj)</string>
+</resources>

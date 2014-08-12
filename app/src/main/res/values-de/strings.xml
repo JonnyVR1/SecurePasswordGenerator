@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Passwort-Generator</string>
+  <string name="checkbox_error">Sie müssen mindestens 1 Kästchen markiert haben.</string>
+  <string name="copy">Tippen Sie das Passwort ein, um ihn in die Zwischenablage kopieren</string>
+  <string name="generate">Generieren</string>
+  <string name="intro">Ihr Passwort wird hier angezeigt.</string>
+  <string name="length">Kennwortlänge</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Passwort</string>
+  <string name="password_copied">Passwort in Zwischenablage kopiert</string>
+  <string name="symbols">Symbole (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Unterstrich)</string>
+</resources>

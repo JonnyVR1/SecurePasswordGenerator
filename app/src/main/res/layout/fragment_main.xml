@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCD8A"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+    <TextView
+        android:text="@string/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/hintTextView"
+        android:textSize="18sp"
+        android:layout_alignRight="@+id/copyTextView"
+        android:layout_alignEnd="@+id/copyTextView"
+        android:layout_marginTop="34dip" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/passwordTextView"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dip"
+        android:clickable="true" />
+    <TextView
+        android:text="@string/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/copyTextView"
+        android:textSize="14sp"
+        android:layout_below="@+id/passwordTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:visibility="invisible"/>
+    <TextView
+        android:text="@string/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lengthTextView"
+        android:textSize="16sp"
+        android:layout_above="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginBottom="5dip" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_above="@+id/lowercaseCheckBox"
+        android:layout_marginLeft="50.0dip"
+        android:layout_marginRight="50.0dip"
+        android:layout_marginStart="50.0dip"
+        android:layout_marginEnd="50.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lowercase"
+        android:id="@+id/lowercaseCheckBox"
+        android:layout_gravity="center_vertical"
+        android:layout_above="@+id/uppercaseCheckBox"
+        android:layout_alignLeft="@+id/uppercaseCheckBox"
+        android:layout_alignStart="@+id/uppercaseCheckBox" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uppercase"
+        android:id="@+id/uppercaseCheckBox"
+        android:layout_gravity="center_vertical"
+        android:layout_above="@+id/numbersCheckBox"
+        android:layout_alignLeft="@+id/underscoreCheckBox"
+        android:layout_alignStart="@+id/underscoreCheckBox"
+        android:layout_marginTop="5dip" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numbers"
+        android:id="@+id/numbersCheckBox"
+        android:layout_above="@+id/underscoreCheckBox"
+        android:layout_alignLeft="@+id/underscoreCheckBox"
+        android:layout_alignStart="@+id/underscoreCheckBox"
+        android:layout_marginTop="5dip" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/underscore"
+        android:id="@+id/underscoreCheckBox"
+        android:layout_above="@+id/symbolsCheckBox"
+        android:layout_alignLeft="@id/spinner"
+        android:layout_alignStart="@id/spinner"
+        android:layout_marginTop="5dip" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/symbols"
+        android:id="@+id/symbolsCheckBox"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/generateButton"
+        android:layout_alignLeft="@+id/underscoreCheckBox"
+        android:layout_alignStart="@+id/underscoreCheckBox"
+        android:layout_marginTop="5dip" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generate"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingStart="40dip"
+        android:paddingEnd="40dip"
+        android:id="@+id/generateButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dip" />
+</RelativeLayout>

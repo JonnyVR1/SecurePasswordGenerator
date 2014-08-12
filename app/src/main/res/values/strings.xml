@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="checkbox_error">You must have at least 1 box checked</string>
+    <string name="copy">Tap the password to copy it to clipboard</string>
+    <string name="generate">Generate</string>
+    <string name="intro">Your password will appear here</string>
+    <string name="length">Password Length</string>
+    <string name="lowercase">abc…xyz</string>
+    <string name="numbers">012…789</string>
+    <string name="password">Password</string>
+    <string name="password_copied">Password copied to Clipboard</string>
+    <string name="symbols">Symbols (!@#…_+=)</string>
+    <string name="uppercase">ABC…XYZ</string>
+    <string name="underscore">_ (Underscore)</string>
+</resources>

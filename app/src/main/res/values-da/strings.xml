@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Password Generator</string>
+  <string name="checkbox_error">Du skal have mindst 1 boks kontrolleres</string>
+  <string name="copy">Tryk på adgangskode for at kopiere det til Udklipsholder</string>
+  <string name="generate">Generere</string>
+  <string name="intro">Din adgangskode vises her</string>
+  <string name="length">Adgangskodelængde</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Adgangskode</string>
+  <string name="password_copied">Adgangskode kopieres til Udklipsholder</string>
+  <string name="symbols">Symboler (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Underscore)</string>
+</resources>

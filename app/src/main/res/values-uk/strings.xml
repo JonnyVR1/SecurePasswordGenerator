@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Генератор паролів</string>
+  <string name="checkbox_error">Ви повинні мати принаймні 1 прапорець</string>
+  <string name="copy">Виберіть пароль, щоб скопіювати його в буфер обміну</string>
+  <string name="generate">Генерувати</string>
+  <string name="intro">Ваш пароль з\'явиться тут</string>
+  <string name="length">Довжина пароля</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Пароль</string>
+  <string name="password_copied">Пароль скопійовано до буфера обміну</string>
+  <string name="symbols">Символи (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Підкреслення)</string>
+</resources>

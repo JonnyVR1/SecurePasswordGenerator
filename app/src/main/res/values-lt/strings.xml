@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Slaptažodžių generatorius</string>
+  <string name="checkbox_error">Turite turėti bent 1 langelį patikrinti</string>
+  <string name="copy">Bakstelėkite slaptažodį, kad nukopijuotumėte ją į mainų sritį</string>
+  <string name="generate">Generuoti</string>
+  <string name="intro">Jūsų slaptažodis bus rodomi čia</string>
+  <string name="length">Slaptažodžio ilgio</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Slaptažodį</string>
+  <string name="password_copied">Nukopijuoti į iškarpinę slaptažodį</string>
+  <string name="symbols">Simboliai (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Apatinis brūkšnys)</string>
+</resources>

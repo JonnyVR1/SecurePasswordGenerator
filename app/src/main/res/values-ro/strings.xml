@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Generator de parola</string>
+  <string name="checkbox_error">Trebuie să aveţi cel puţin 1 cutie verificate</string>
+  <string name="copy">Atingeţi parola pentru a l copiaţi în clipboard</string>
+  <string name="generate">Genera</string>
+  <string name="intro">Parola ta va apărea aici</string>
+  <string name="length">Lungimea parolei</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Parola</string>
+  <string name="password_copied">Parola copiat în Clipboard</string>
+  <string name="symbols">Simboluri (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Linie de subliniere)</string>
+</resources>

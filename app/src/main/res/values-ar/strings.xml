@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">مولد كلمة السر</string>
+  <string name="checkbox_error">يجب أن يكون لديك خانة اختيار على الأقل 1</string>
+  <string name="copy">اضغط على كلمة السر لنسخة إلى "الحافظة"</string>
+  <string name="generate">توليد</string>
+  <string name="intro">سوف تظهر كلمة السر الخاصة بك هنا</string>
+  <string name="length">طول كلمة المرور</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">كلمة المرور</string>
+  <string name="password_copied">كلمة نسخ إلى الحافظة</string>
+  <string name="symbols">الرموز (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (التسطير أسفل السطر)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">پاس ورڈ جنریٹر</string>
+  <string name="checkbox_error">آپ کم از کم 1 باکس کی جانچ پڑتال ہونا چاہیے</string>
+  <string name="copy">اسے تختہ تراشہ پر نقل کرنے کے لیے پاس ورڈ پر ٹیپ کریں ۔</string>
+  <string name="generate">کی تخلیق</string>
+  <string name="intro">آپ کا پاس ورڈ یہاں ظاہر ہو جائے گا</string>
+  <string name="length">پاس ورڈ لمبائی</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">پاس ورڈ</string>
+  <string name="password_copied">تختہ تراشہ پر نقل کردہ پاس ورڈ</string>
+  <string name="symbols">علامات (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">(انڈرسکور) _</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Lo lus zais Generator</string>
+  <string name="checkbox_error">Koj yuav tsum muaj tsawg kawg yog 1 lub thawv uas soj ntsuam</string>
+  <string name="copy">Coj mus rhaub cov (password) rau luam rau ntawv los teev cia</string>
+  <string name="generate">Ua kom muaj</string>
+  <string name="intro">Koj lo lus zais yuav tshwm sim li no</string>
+  <string name="length">Lo lus zais ntev</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Lo lus zais</string>
+  <string name="password_copied">Lo lus zais tau theej rau ntawv los teev cia</string>
+  <string name="symbols">Cim (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_____ (Underscore)</string>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Password Generator</string>
+  <string name="checkbox_error">Anda harus memiliki setidaknya 1 kotak dicentang</string>
+  <string name="copy">Ketuk password untuk menyalinnya ke clipboard</string>
+  <string name="generate">Menghasilkan</string>
+  <string name="intro">Password Anda akan muncul di sini</string>
+  <string name="length">Panjang sandi</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Sandi</string>
+  <string name="password_copied">Sandi yang disalin ke Clipboard</string>
+  <string name="symbols">Simbol-simbol (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Underscore)</string>
+</resources>

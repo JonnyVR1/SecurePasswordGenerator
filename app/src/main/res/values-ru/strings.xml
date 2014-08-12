@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Генератор паролей</string>
+  <string name="checkbox_error">Вы должны иметь по крайней мере 1 флажок</string>
+  <string name="copy">Коснитесь пункта пароль для его копирования в буфер обмена</string>
+  <string name="generate">Генерировать</string>
+  <string name="intro">Ваш пароль будет появляться здесь</string>
+  <string name="length">Длина пароля</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Пароль</string>
+  <string name="password_copied">Пароль скопирован в буфер обмена</string>
+  <string name="symbols">Символы (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Символ подчеркивания)</string>
+</resources>

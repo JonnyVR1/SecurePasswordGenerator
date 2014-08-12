@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Paroli ģenerators</string>
+  <string name="checkbox_error">Ir jābūt vismaz 1 rūtiņu pārbaudīts</string>
+  <string name="copy">Pieskarieties paroli, lai to iekopētu starpliktuvē</string>
+  <string name="generate">Ģenerēt</string>
+  <string name="intro">Šeit parādīsies jūsu paroli</string>
+  <string name="length">Paroles garums</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Parole</string>
+  <string name="password_copied">Paroli, kas iekopēts starpliktuvē</string>
+  <string name="symbols">Simboli (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Pasvītrojumu)</string>
+</resources>

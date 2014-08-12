@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Γεννήτρια κωδικού πρόσβασης</string>
+  <string name="checkbox_error">Πρέπει να έχετε τουλάχιστον 1 κουτί που ελέγχθηκαν</string>
+  <string name="copy">Πατήστε τον κωδικό πρόσβασης για να το αντιγράψετε στο Πρόχειρο</string>
+  <string name="generate">Δημιουργία</string>
+  <string name="intro">Τον κωδικό πρόσβασής σας θα εμφανίζονται εδώ</string>
+  <string name="length">Μήκος του κωδικού πρόσβασης</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Κωδικός πρόσβασης</string>
+  <string name="password_copied">Κωδικός αντιγράφεται στο Πρόχειρο</string>
+  <string name="symbols">Σύμβολα (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Underscore)</string>
+</resources>

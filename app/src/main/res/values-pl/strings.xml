@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Generator haseł</string>
+  <string name="checkbox_error">Musisz mieć co najmniej 1 pole zaznaczone</string>
+  <string name="copy">Wybierz hasło, aby skopiować go do schowka</string>
+  <string name="generate">Generowanie</string>
+  <string name="intro">Hasła pojawią się tutaj</string>
+  <string name="length">Długość hasła</string>
+  <string name="lowercase">abc…xyz</string>
+  <string name="numbers">012…789</string>
+  <string name="password">Hasło</string>
+  <string name="password_copied">Hasło skopiowany do schowka</string>
+  <string name="symbols">Symbole (!@#…_+=)</string>
+  <string name="uppercase">ABC…XYZ</string>
+  <string name="underscore">_ (Podkreślenie)</string>
+</resources>
