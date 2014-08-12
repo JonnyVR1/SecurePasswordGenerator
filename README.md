@@ -1,7 +1,7 @@
 Secure Password Generator for Android
 ===================================
 
-<a href="https://play.google.com/store/apps/details?id=com.jonny.passwordgenerator">
+<a href="https://play.google.com/store/apps/details?id=com.jonny.passwordgenerator" target="_blank">
 	<img alt="Android app on Google Play" src="https://raw.github.com/JonnyXDA/SecurePasswordGenerator/master/screenshot.png" />
 </a>
 
