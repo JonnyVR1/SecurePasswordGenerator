@@ -12,6 +12,18 @@
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Apptheme</item>
 		<item name="android:buttonStyle">@style/ButtonApptheme</item>
 		<item name="android:imageButtonStyle">@style/ImageButtonApptheme</item>
+		<item name="android:checkboxStyle">@style/CheckBoxApptheme</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerApptheme</item>
+        <item name="android:listViewStyle">@style/ListViewAppTheme</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewAppTheme.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemAppTheme</item>
+		<item name="android:textColorHighlight">#99ffaf44</item>
+		<item name="android:textSelectHandleLeft">@drawable/apptheme_text_select_handle_left</item>
+		<item name="android:textSelectHandleRight">@drawable/apptheme_text_select_handle_right</item>
+		<item name="android:textSelectHandle">@drawable/apptheme_text_select_handle_middle</item>
+		<item name="android:listChoiceIndicatorMultiple">@drawable/apptheme_btn_check_holo_light</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/apptheme_list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/apptheme_activated_background_holo_light</item>
     </style>
 
     <style name="ActionBar.Solid.Apptheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
@@ -38,4 +50,25 @@
 	<style name="ImageButtonApptheme" parent="android:Widget.Holo.Light.ImageButton">
 		<item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
 	</style>
+
+	<style name="CheckBoxApptheme" parent="android:Widget.CompoundButton.CheckBox">
+		<item name="android:button">@drawable/apptheme_btn_check_holo_light</item>
+	</style>
+
+    <style name="SpinnerApptheme" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/apptheme_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="ListViewAppTheme" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/apptheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="ListViewAppTheme.White" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">@drawable/apptheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="SpinnerItemAppTheme" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#000000</item>
+    </style>
 </resources>

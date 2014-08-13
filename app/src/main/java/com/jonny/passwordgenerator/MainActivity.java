@@ -178,6 +178,7 @@ public class MainActivity extends ActionBarActivity {
             }
         };
 
+        @SuppressWarnings("deprecation")
         View.OnClickListener clickHandler = new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFCD8A"
+    android:background="#FFFFFF"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -26,7 +26,8 @@
         android:textSize="22sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dip"
-        android:clickable="true" />
+        android:clickable="true"
+        android:textIsSelectable="true" />
     <TextView
         android:text="@string/copy"
         android:layout_width="wrap_content"
@@ -47,7 +48,9 @@
         android:layout_above="@+id/spinner"
         android:layout_alignLeft="@+id/spinner"
         android:layout_alignStart="@+id/spinner"
-        android:layout_marginBottom="5dip" />
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginStart="20dip" />
     <Spinner
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
