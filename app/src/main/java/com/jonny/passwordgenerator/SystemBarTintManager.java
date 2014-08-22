@@ -310,7 +310,7 @@ public class SystemBarTintManager {
         }
 
         public int getPixelInsetTop(boolean withActionBar) {
-            return (mTranslucentStatusBar ? mStatusBarHeight : 0) + (withActionBar ? mActionBarHeight : 0);
+            return mStatusBarHeight + (withActionBar ? mActionBarHeight : 0);
         }
 
         public int getPixelInsetBottom() {

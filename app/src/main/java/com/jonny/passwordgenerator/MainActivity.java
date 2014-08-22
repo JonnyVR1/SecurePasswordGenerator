@@ -32,12 +32,10 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().add(R.id.container, new MainFragment()).commit();
-        }
+        if (savedInstanceState == null) getSupportFragmentManager().beginTransaction().add(R.id.container, new MainFragment()).commit();
     }
 
-    public static class MainFragment extends Fragment {
+    public static class MainFragment extends Fragment implements CompoundButton.OnCheckedChangeListener, View.OnClickListener {
         private CheckBox lowercase, uppercase, numbers, underscore, symbols;
         private TextView hintTextView, passwordTextView, copyTextView;
         private Button generate;
@@ -84,19 +82,19 @@ public class MainActivity extends ActionBarActivity {
         private void setupCheckBoxes(View view) {
             lowercase = (CheckBox)view.findViewById(R.id.lowercaseCheckBox);
             lowercase.setChecked(getFromSP("lowercase"));
-            lowercase.setOnCheckedChangeListener(checkboxHandler);
+            lowercase.setOnCheckedChangeListener(this);
             uppercase = (CheckBox)view.findViewById(R.id.uppercaseCheckBox);
             uppercase.setChecked(getFromSP("uppercase"));
-            uppercase.setOnCheckedChangeListener(checkboxHandler);
+            uppercase.setOnCheckedChangeListener(this);
             numbers = (CheckBox)view.findViewById(R.id.numbersCheckBox);
             numbers.setChecked(getFromSP("numbers"));
-            numbers.setOnCheckedChangeListener(checkboxHandler);
+            numbers.setOnCheckedChangeListener(this);
             underscore = (CheckBox)view.findViewById(R.id.underscoreCheckBox);
             underscore.setChecked(getFromSP("underscore"));
-            underscore.setOnCheckedChangeListener(checkboxHandler);
+            underscore.setOnCheckedChangeListener(this);
             symbols = (CheckBox)view.findViewById(R.id.symbolsCheckBox);
             symbols.setChecked(getFromSP("symbols"));
-            symbols.setOnCheckedChangeListener(checkboxHandler);
+            symbols.setOnCheckedChangeListener(this);
             if (!lowercase.isChecked() && !uppercase.isChecked() && !numbers.isChecked() && !underscore.isChecked() && !symbols.isChecked()) {
                 lowercase.setChecked(true);
                 saveInSP("lowercase", true);
@@ -130,10 +128,10 @@ public class MainActivity extends ActionBarActivity {
         @SuppressWarnings("deprecation")
         private void setupGenerateButton(View view) {
             generate = (Button)view.findViewById(R.id.generateButton);
-            generate.setOnClickListener(clickHandler);
+            generate.setOnClickListener(this);
             hintTextView = (TextView)view.findViewById(R.id.hintTextView);
             passwordTextView = (TextView)view.findViewById(R.id.passwordTextView);
-            passwordTextView.setOnClickListener(clickHandler);
+            passwordTextView.setOnClickListener(this);
             copyTextView = (TextView)view.findViewById(R.id.copyTextView);
         }
 
@@ -155,59 +153,52 @@ public class MainActivity extends ActionBarActivity {
             return new String(buff);
         }
 
-        CompoundButton.OnCheckedChangeListener checkboxHandler = new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                switch(buttonView.getId()) {
-                    case R.id.lowercaseCheckBox:
-                        checkChecked("lowercase", isChecked);
-                        break;
-                    case R.id.uppercaseCheckBox:
-                        checkChecked("uppercase", isChecked);
-                        break;
-                    case R.id.numbersCheckBox:
-                        checkChecked("numbers", isChecked);
-                        break;
-                    case R.id.underscoreCheckBox:
-                        checkChecked("underscore", isChecked);
-                        break;
-                    case R.id.symbolsCheckBox:
-                        checkChecked("symbols", isChecked);
-                        break;
-                }
+        @Override
+        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+            switch(buttonView.getId()) {
+                case R.id.lowercaseCheckBox:
+                    checkChecked("lowercase", isChecked);
+                    break;
+                case R.id.uppercaseCheckBox:
+                    checkChecked("uppercase", isChecked);
+                    break;
+                case R.id.numbersCheckBox:
+                    checkChecked("numbers", isChecked);
+                    break;
+                case R.id.underscoreCheckBox:
+                    checkChecked("underscore", isChecked);
+                    break;
+                case R.id.symbolsCheckBox:
+                    checkChecked("symbols", isChecked);
+                    break;
             }
-        };
+        }
 
-        @SuppressWarnings("deprecation")
-        View.OnClickListener clickHandler = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch(v.getId()) {
-                    case R.id.passwordTextView:
-                        if (passwordTextView.getText() == null) return;
-                        if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB) {
-                            android.text.ClipboardManager clipboard = (android.text.ClipboardManager)getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
-                            clipboard.setText(passwordTextView.getText().toString());
-                        } else {
-                            android.content.ClipboardManager clipboard = (android.content.ClipboardManager)getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
-                            android.content.ClipData clip = android.content.ClipData.newPlainText(getActivity().getResources().getString(R.string.password), passwordTextView.getText().toString());
-                            clipboard.setPrimaryClip(clip);
-                        }
-                        Toast.makeText(getActivity(), R.string.password_copied, Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.generateButton:
-                        int length = Integer.parseInt(getResources().getStringArray(R.array.length_options)[spinner.getSelectedItemPosition()]);
-                        String generatedPassword = csRandomAlphaNumericString(length);
-                        if (hintTextView.getVisibility() == View.VISIBLE) {
-                            hintTextView.setVisibility(View.INVISIBLE);
-                            passwordTextView.setText(generatedPassword);
-                            copyTextView.setVisibility(View.VISIBLE);
-                        } else {
-                            passwordTextView.setText(generatedPassword);
-                        }
-                        break;
-                }
+        @Override @SuppressWarnings("deprecation")
+        public void onClick(View v) {
+            switch(v.getId()) {
+                case R.id.passwordTextView:
+                    if (passwordTextView.getText() == null) return;
+                    if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB) {
+                        android.text.ClipboardManager clipboard = (android.text.ClipboardManager)getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
+                        clipboard.setText(passwordTextView.getText().toString());
+                    } else {
+                        android.content.ClipboardManager clipboard = (android.content.ClipboardManager)getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
+                        android.content.ClipData clip = android.content.ClipData.newPlainText(getActivity().getResources().getString(R.string.password), passwordTextView.getText().toString());
+                        clipboard.setPrimaryClip(clip);
+                    }
+                    Toast.makeText(getActivity(), R.string.password_copied, Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.generateButton:
+                    int length = Integer.parseInt(getResources().getStringArray(R.array.length_options)[spinner.getSelectedItemPosition()]);
+                    String generatedPassword = csRandomAlphaNumericString(length);
+                    if (hintTextView.getVisibility() == View.VISIBLE) {
+                        hintTextView.setVisibility(View.INVISIBLE);
+                        copyTextView.setVisibility(View.VISIBLE);
+                    }
+                    passwordTextView.setText(generatedPassword);
+                    break;
             }
-        };
+        }
     }
 }
